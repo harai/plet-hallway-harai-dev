@@ -1,0 +1,18 @@
+{
+  "name": "plet-hallway-harai-dev",
+  "version": "1.0.0",
+  "description": "description",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/harai/plet-hallway-harai-dev.git"
+  }
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
