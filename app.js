@@ -18,7 +18,15 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 app.use(stormpath.init(app, {
-  website: true
+  website: true,
+  debug: 'info, error',
+  cacheOptions: {
+    store: 'redis',
+    connection: {
+      host: 'localhost',
+      port: 6379,
+    },
+  },
 }));
 
 // uncomment after placing your favicon in /public
